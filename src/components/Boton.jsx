@@ -1,9 +1,14 @@
+import MiniBoton from "./MiniBoton";
 const Boton = () => {
     const handleClick = () => {
         alert('¡Botón clickeado!');
     }
+    
     return (
-        <button onClick={handleClick}>Click me</button>
+        <>
+            <MiniBoton />
+            <button onClick={handleClick}>Haceme Clic</button>
+        </>     
     )
 }
 
