@@ -5,7 +5,6 @@ const {nombre, edad } = datos;
 return (
     <div>
        <h3>Nombre:{nombre} , Edad:{edad} </h3>
-       <Boton />
     </div>
 );
 }

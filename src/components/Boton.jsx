@@ -1,15 +1,19 @@
-import MiniBoton from "./MiniBoton";
+import { useState } from "react";
+
 const Boton = () => {
-    const handleClick = () => {
-        alert('¡Botón clickeado!');
-    }
-    
-    return (
-        <>
-            <MiniBoton />
-            <button onClick={handleClick}>Haceme Clic</button>
-        </>     
-    )
-}
+
+	const [contador, setContador] = useState(0);
+
+  return(
+		<>
+			<p>{contador}</p>
+			<button 
+				onClick={() => setContador(contador + 1 )}> 
+					Incrementar 
+			</button>
+		</>
+		
+	);
+};
 
 export default Boton;

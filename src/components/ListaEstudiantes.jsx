@@ -9,9 +9,9 @@ const ListaEstudiantes = () => {
 
     return (
         <div>
-            {datosEstudiantes.map((estudiante, index) => (
+            {datosEstudiantes.map((estudiante, index) => 
                 <Estudiante key={index} datos={estudiante} />
-            ))}
+            )}
         </div>
     );
 }
