@@ -3,10 +3,10 @@ import { useState } from "react";
 const Carrito = () => {
 
 	const listaProductos = [
-		{id: 1, nombre: "Zapas Nike", precio: 84500 },
-		{id: 2, nombre: "Remera Pumas", precio: 36500 },
-		{id: 3, nombre: "Buzo Adidas ", precio: 52500 }
-	];
+      {id: 1, nombre: "Papas", precio: 1500},
+	  {id: 2, nombre: "Tomates", precio: 1800},
+	  {id: 3, nombre: "Cilantro", precio: 2000}
+    ];
 
 	const [carrito, setCarrito] = useState([]);
 	
