@@ -1,5 +1,3 @@
-import Boton from "./Boton";
-
 const Estudiante = ({datos}) => {
 const {nombre, edad } = datos; 
 return (

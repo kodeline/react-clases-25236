@@ -1,11 +1,11 @@
 import './App.css'
-import Header from './components/Header.jsx' 
-import Nav from './components/Nav.jsx'
-import Main from './components/Main.jsx'
-import Footer from './components/Footer.jsx'
-import Carrito from './components/Carrito.jsx'
-import Boton from './components/Boton.jsx'
-import Formulario from './components/Formulario.jsx'
+import Header from './clase-03/Header.jsx' 
+import Nav from './clase-03/Nav.jsx'
+import Main from './clase-03/Main.jsx'
+import Footer from './clase-03/Footer.jsx'
+
+import Formulario from './clase-04/Formulario.jsx'
+import Carrito from './clase-04/Carrito.jsx'
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
       <Nav/>
       <Main/>
       <Formulario/>
-      <Boton/>
       <Carrito/>
       <Footer/>
     </>
